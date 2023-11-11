@@ -40,6 +40,11 @@ p {
   margin: 15px 0 20px 0;
 }
 
+.logo{
+  width: 100%;
+  height: 5vh;
+}
+
 .section-p1 {
   padding: 40px 80px;
 }
@@ -168,7 +173,7 @@ body {
   background-color: transparent;
   color: #088178;
   border: 0;
-  padding: 14px 80px 14px 65px;
+  padding: 14px 80px 14px 50px;
   background-repeat: no-repeat;  
   cursor: pointer;
   font-weight: 700;
@@ -260,7 +265,12 @@ body {
 
 #product1 .pro img{
   width: 100%;
+  height: 250px;
   border-radius: 20px;  
+}
+
+#product1 .pro img.pantalones{
+  height: 350px;
 }
 
 #product1 .pro .des{
@@ -491,7 +501,9 @@ footer .col{
   margin-bottom: 20px;
 }
 
-footer .logo{
+footer img.logo{
+  width: 25%;
+  height: 25%;
   margin-bottom: 30px;
 }
 
@@ -740,6 +752,10 @@ footer .copyright{
 
 #about-app {
   text-align: center;
+}
+
+#about-app h1{
+  margin: 0 0 10px 0;
 }
 
 #about-app.video{
